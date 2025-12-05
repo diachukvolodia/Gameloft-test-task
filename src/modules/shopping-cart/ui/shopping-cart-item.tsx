@@ -16,7 +16,7 @@ export const ShoppingCartItem: FC<ShoppingCartItemProps> = memo(({ product, onRe
           <div className="rounded-full border-2 border-blue-600 p-2">
             <Image src={product.image} className="min-w-[50px] w-[50px] h-[50px] " />
           </div>
-          <TextP className="mt-4">{product.price}</TextP>
+          <TextP className="mt-4">${product.price}</TextP>
         </div>
         <div className="ml-4">
           <TextH5 className="text-left line-clamp-2">{product.title}</TextH5>

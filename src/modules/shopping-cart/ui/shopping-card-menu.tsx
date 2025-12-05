@@ -23,7 +23,7 @@ export const ShoppingCartMenu: FC<ShoppingCartMenuProps> = memo(
         {!isCartEmpty && (
           <>
             <TextH4 className="font-bold">
-              Total price: {productsPriceInfo?.totalPrice}
+              Total price: ${productsPriceInfo?.totalPrice && productsPriceInfo.totalPrice.toFixed(2)}
               <br />
               {productsPriceInfo?.isDiscountApplied && (
                 <TextP className="text-green-700">Discount applied: {productsPriceInfo.discountValue * 100}%</TextP>
