@@ -7,7 +7,7 @@ import { Button } from '../button';
 import { TextH1 } from '../text';
 
 export type CarouselProps<T extends WithId> = {
-  data: T[];
+  data?: T[];
   itemClassName?: string;
   renderItem: (item: T) => ReactNode;
   configs?: ScrollCarouselConfig;

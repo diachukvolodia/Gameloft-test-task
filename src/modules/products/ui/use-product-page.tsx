@@ -1,10 +1,10 @@
 import { useCallback } from 'react';
 import { useQuery } from '@tanstack/react-query';
 
-import type { ProductEntity } from '@core/product.entity';
 import { getProducts } from '../api/get-products.query';
 import { ProductCard } from './product-card';
 import { useShoppingCartStore } from '../../shopping-cart/store/use-shopping-cart.store';
+import type { ProductEntity } from '../core/product.entity';
 
 export const useProductPage = () => {
   const {

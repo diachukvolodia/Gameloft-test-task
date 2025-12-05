@@ -1,10 +1,10 @@
 import { type FC } from 'react';
 
-import type { ProductEntity } from '@core/product.entity';
 import { PageWrapper } from '@shared/layouts';
 import { Carousel } from '@/shared/components';
 import { useProductPage } from './use-product-page';
 import { ShoppingCart } from '../../shopping-cart/ui';
+import type { ProductEntity } from '../core/product.entity';
 
 const CAROUSEL_CONFIGS = {
   itemsGapPx: 20,

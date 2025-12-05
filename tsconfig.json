@@ -5,9 +5,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@/modules*": ["src/modules/*"],
-      "@/configs*": ["src/configs/*"],
-      "@/shared*": ["src/shared/*"]
+      "@modules/*": ["src/modules/*"],
+      "@configs/*": ["src/configs/*"],
+      "@shared/*": ["src/shared/*"]
     }
   }
 }
